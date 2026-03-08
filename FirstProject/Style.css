@@ -1,0 +1,38 @@
+/* עיצוב כללי לגוף העמוד */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 40px;
+}
+
+/* קיבוץ סלקטורים (Grouping) - כותרות בצבע ירוק */
+h1, h3 {
+    color: blue;
+}
+
+/* שימוש ב-ID Selector לאלמנט חשוב */
+#important {
+    color: green;
+    font-weight: bold;
+}
+
+/* שימוש ב-Class Selector לסגנון "רשמי" */
+.formal {
+    font-style: italic;
+    background-color: purple;
+    color: yellow;
+    font-size: 30px;
+}
+
+.text {
+    font-style: normal;
+    background-color: lightcoral;
+    font-size: 20px;
+}
+
+/* עיצוב כותרת ראשית */
+.main-title {
+    border-bottom: 2px solid blue;
+    display: inline-block;
+    font-size: 50px;
+}
